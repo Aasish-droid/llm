@@ -1,0 +1,6 @@
+faiss-cpu
+flask
+transformers
+torch
+sentence-transformers
+mysql-connector-python

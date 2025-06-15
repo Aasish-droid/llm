@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background: linear-gradient(135deg, #1E88E5, #D32F2F); color: #fff; text-align: center; padding: 20px; }
+        .container { max-width: 700px; margin: auto; padding: 20px; background: rgba(255, 255, 255, 0.1); border-radius: 15px; box-shadow: 0px 4px 10px rgba(0,0,0,0.3); }
+        textarea { width: 100%; border-radius: 8px; padding: 10px; }
+        .btn { background-color: #FFC107; border: none; color: black; padding: 10px 20px; font-size: 18px; cursor: pointer; border-radius: 10px; }
+        .btn:hover { background-color: #FF9800; }
+        .generated-code { background: #333; padding: 10px; border-radius: 10px; color: #fff; text-align: left; font-family: "Courier New", monospace; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fa-solid fa-code"></i> AI Code Generator with Hybrid RAG 🚀</h1>
+        <p>Generate code snippets using GPT-Neo with FAISS-powered retrieval.</p>
+
+        <form method="POST" action="https://your-backend.onrender.com/generate">
+            <textarea name="user_input" rows="5" placeholder="Enter your coding prompt..."></textarea><br><br>
+            <button type="submit" class="btn"><i class="fa-solid fa-robot"></i> Generate Code</button>
+        </form>
+    </div>
+</body>
+</html>
